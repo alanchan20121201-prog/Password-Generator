@@ -1,6 +1,7 @@
 <h1 align="center">🔐 Secure Password Generator & Analyzer</h1>
 <h1 align="center">安全密码生成器与分析器</h1>
 
+[下載/download](https://github.com/alanchan20121201-prog/Password-Generator/releases/tag/windows)
 
 <p align="center">
   <img alt="Platform" src="https://img.shields.io/badge/platform-Windows-blue">
