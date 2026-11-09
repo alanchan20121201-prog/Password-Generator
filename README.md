@@ -14,7 +14,20 @@
 
 ---
 
+## 四種語言版本 / Four language builds
 
+| 源碼目錄 | 語言 | 產出的 EXE |
+| --- | --- | --- |
+| `zh/` | 简体中文 | `Secure-Password-Generator-*-zh-CN.exe` |
+| `zh-TW/` | 繁體中文 | `...-zh-TW.exe` |
+| `en/` | English | `...-en.exe` |
+| `ja/` | 日本語 | `...-ja.exe` |
+
+每個目錄都是一份獨立的 Electron 專案，介面文案各自寫死在該目錄的 `scr/App.tsx`、`scr/lib/*.ts`、`index.html` 與 `package.json` 裡——沿用原本「EN / ZH 雙份源碼」的做法，所以每个 EXE 只含一种语言、互不干扰。
+
+```bash
+node build-4lang.js    # 依序 npm install + 打包四個目錄，產出到 dist-4lang/
+```
 
 ## English
 
